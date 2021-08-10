@@ -1,0 +1,6 @@
+framework module NTESOcrSdk {
+  umbrella header "NTESOcrSdk.h"
+
+  export *
+  module * { export * }
+}

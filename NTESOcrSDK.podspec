@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NTESOcrSDK"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "NTESOcrSDK."
 
   # This description is used to generate tags and improve search results.
@@ -139,7 +139,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "NTESBaseComponent", "1.1"
+  spec.dependency "NTESBaseComponent"
   spec.dependency "NTESARCommonSDK", "1.0.0"
 
 end
