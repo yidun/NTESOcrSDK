@@ -1,0 +1,6 @@
+framework module NTESOcrARDetect {
+  umbrella header "NTESOcrARDetect.h"
+
+  export *
+  module * { export * }
+}
