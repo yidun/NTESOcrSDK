@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NTESOcrSDK"
-  spec.version      = "1.0.5.beta"
+  spec.version      = "1.0.5"
   spec.summary      = "NTESOcrSDK."
 
   # This description is used to generate tags and improve search results.
