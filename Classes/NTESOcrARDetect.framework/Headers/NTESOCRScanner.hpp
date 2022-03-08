@@ -26,8 +26,7 @@ using namespace cv;
 
 @interface OCRDetectIOS : NSObject
 
--(id) initWithSensitivityType:(int)type;
--(id) initWithSensitivityType:(int)type x:(int) roi_x y:(int) roi_y height:(int) roi_height width:(int) roi_width;
+-(id)initWithSensitivityType:(int)type x:(int)roi_x y:(int)roi_y height:(int)roi_height width:(int)roi_width windowsH:(float)windowsH windowsW:(float)windowsW;
 
 -(BOOL) run_DetectOCR:(cv::Mat)captured_image frame__:(int)frame_count reverseType:(int)reverseType;
 - (BOOL)clear_engine;
