@@ -88,7 +88,7 @@ typedef void(^NTESOcrCompletionHandler)(NTESOcrStatus status, NSDictionary * _Nu
                 completionHandler:(NTESOcrCompletionHandler)completionHandler;
 
 /**
- 停止身份证检测                     ⚠️ 请在主线程中调用
+ 停止身份证检测                     
  
  @abstract                      调用时机：
                                 1、在身份证检测结果的回调里（NTESOcrCompletionHandler）调用
