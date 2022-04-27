@@ -8,8 +8,6 @@
 #ifndef NTESOCRScanner_h
 #define NTESOCRScanner_h
 
-// 20220408-1.0
-
 #include <stdio.h>
 // OpenCV includes
 #include <opencv2/videoio/videoio.hpp>  // Video write
