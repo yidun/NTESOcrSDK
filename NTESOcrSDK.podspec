@@ -124,7 +124,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
   spec.frameworks = "AssetsLibrary", "AVFoundation", "CoreData", "CoreMedia"
-  spec.vendored_frameworks = ["Classes/NTESOcrSdk.framework","Classes/NTESOcrARDetect.framework"]
+  spec.vendored_frameworks = ["Classes/NTESOcrSdk.framework","Classes/NTESOcrARDetect.framework","Classes/MNN.framework"]
   spec.resource = "Assets/NTESOcrDetect.bundle"
   
   spec.libraries = "c++.1"
